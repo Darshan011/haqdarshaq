@@ -1,0 +1,16 @@
+.container{
+    max-width: 400px;
+    padding: 20px 20px 20px 25px;
+
+   
+}
+.custominput{
+    /* padding: 5px; */
+    width: 280px;
+    height: 7vh;
+    background-color: whitesmoke;
+    border: 1px solid rgb(207, 205, 205); 
+    border-radius: 26px;
+    font-size: 1.2rem;
+    /* font-family:; */
+}

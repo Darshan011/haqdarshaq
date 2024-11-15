@@ -1,0 +1,21 @@
+/* Default styles for window (desktop) screens */
+.modal {
+    /* padding-top: 60px; */
+    margin: 0 auto;
+    width: 100%; /* Full width on desktop */
+    height: 97vh;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 26px 26px 0px 0px;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+    .modal {
+        padding-top: 10%;
+        width: 100%; /* Adjusted to fit smaller screens */
+        margin: 0 auto;
+        height: 75vh auto;
+        border-radius: 26px 26px 0px 0px;
+    }
+}
